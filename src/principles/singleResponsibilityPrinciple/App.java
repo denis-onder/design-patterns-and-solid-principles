@@ -40,6 +40,10 @@ public class App {
 		}
 	}
 
+	private static void sortIntegers(List<Integer> integers) {
+		Collections.sort(integers);
+	}
+
 	private static void printSortedIntegers(List<Integer> integers) {
 		System.out.println("Sorted:");
 		for (Integer integer : integers) {
@@ -50,7 +54,7 @@ public class App {
 	public static void main(String[] args) {
 		List<Integer> inputs = readInput();
 
-		Collections.sort(inputs);
+		sortIntegers(inputs);
 
 		printSortedIntegers(inputs);
 	}
