@@ -1,4 +1,4 @@
-package designPatterns.creational.builder.prototype;
+package designPatterns.creational.prototype;
 
 public class App {
 
